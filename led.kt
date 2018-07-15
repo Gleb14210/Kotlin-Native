@@ -1,13 +1,11 @@
 import pigpio.*
 
 fun main(args: Array<String>) {
-
-	val port = 0
 	
 	gpioInitialise()
 
-	gpioSetMode(port, PI_OUTPUT)
+	gpioSetMode(0, PI_OUTPUT)
    
-	gpioWrite(port, 0)
+	gpioWrite(0, 1)
            
 }
