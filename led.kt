@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
 
 	val port = 0
 	
-	gpioInitialize()
+	gpioInitialise()
 
 	gpioSetMode(port, PI_OUTPUT)
    
