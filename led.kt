@@ -8,6 +8,6 @@ fun main(args: Array<String>) {
 
 	gpioSetMode(port, PI_OUTPUT)
    
-	gpioWrite(port, 0)
+	gpioWrite(port, 1)
            
 }
