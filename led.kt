@@ -2,10 +2,12 @@ import pigpio.*
 
 fun main(args: Array<String>) {
 	
+	
+
 	gpioInitialise()
 
-	gpioSetMode(0, PI_OUTPUT)
+	gpioSetMode(17, PI_OUTPUT)
    
-	gpioWrite(0, 1)
+	gpioWrite(17, 0)
            
 }
